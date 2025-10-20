@@ -97,7 +97,7 @@ export default function Home() {
 
           <div className="text-left">
             <h1 className="font-bold text-2xl text-primary sm:text-3xl">
-              Compsable Commerce Jeopardy
+              Sitecore Symposium Jeopardy
             </h1>
             <p className="text-muted-foreground">
               powered by <span className="text-foreground">▲</span>

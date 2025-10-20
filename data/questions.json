@@ -1,6 +1,6 @@
 {
   "categories": [
-        {
+    {
       "name": "Vercel",
       "questions": [
         {
@@ -24,26 +24,26 @@
       ]
     },
     {
-      "name": "Architecure",
+      "name": "Architecture",
       "questions": [
         {
           "value": 100,
           "question": "What is the opposite of headless architecture?",
-          "options": [ "Monotonic", "Singularity", "Monolithic", "Soloarch"],
-          "correctAnswer": 1
+          "options": ["Monotonic", "Singularity", "Monolithic", "Soloarch"],
+          "correctAnswer": 2
         },
         {
           "value": 200,
           "question": "If you want users to all go to the same page, but see different content, you care about what?",
           "options": ["Flexibility", "Scalability", "Personalization", "Hosting"],
           "correctAnswer": 2
-        }
+        },
         {
           "value": 300,
           "question": "What is a reason to move to a headless architecture?",
           "options": ["Flexibility & Scalability", "Vendor Lock-in", "Slow Performance", "Poor Developer Experience"],
-          "correctAnswer": 3
-        },
+          "correctAnswer": 0
+        }
       ]
     },
     {
@@ -52,22 +52,19 @@
         {
           "value": 100,
           "question": "This cloud-native, headless CMS from Sitecore delivers content via APIs and builds on XM capabilities.",
-          "options": [
-            "Sitecore XP", "Sitecore XM Cloud", "Sitecore Commerce Server", "Sitecore CDP"],
+          "options": ["Sitecore XP", "Sitecore XM Cloud", "Sitecore Commerce Server", "Sitecore CDP"],
           "correctAnswer": 1
         },
         {
           "value": 200,
           "question": "This SDK enables building headless apps with frameworks like Next.js, React, and Vue integrated with Sitecore.",
-          "options": [
-            "SXA", "Sitecore JSS", "MVC", "Flags SDK"
-          ],
+          "options": ["SXA", "Sitecore JSS", "MVC", "Flags SDK"],
           "correctAnswer": 1
         },
         {
           "value": 300,
           "question": "This API-first commerce platform from Sitecore supports B2B, B2C, and marketplace use cases in a composable stack.",
-          "options": [ "Sitecore CDP", "Sitecore Content Hub", "Sitecore OrderCloud", "Sitecore Send" ],
+          "options": ["Sitecore CDP", "Sitecore Content Hub", "Sitecore OrderCloud", "Sitecore Send"],
           "correctAnswer": 2
         }
       ]
