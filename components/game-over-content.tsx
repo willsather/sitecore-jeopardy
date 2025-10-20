@@ -1,5 +1,8 @@
 "use client";
 
+import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/lib/game-state";
 
@@ -162,6 +165,16 @@ export function GameOverContent() {
               with best-of-breed tools and deliver the interactive, personalized
               experience that users expect.
             </p>
+
+            <Button
+              asChild
+              className="mt-3 border-white bg-transparent text-white"
+              variant="outline"
+            >
+              <Link href="https://vercel.com/partners/sitecore" target="_blank">
+                Learn more {`->`}
+              </Link>
+            </Button>
           </div>
 
           <div className="border-border border-t pt-3">
