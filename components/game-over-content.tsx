@@ -87,38 +87,80 @@ export function GameOverContent() {
       <Card className="border-2 border-muted/20">
         <CardHeader>
           <CardTitle className="text-center text-xl">
-            What is the AI Cloud
+            Sitecore + Vercel
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4 text-left">
           <div className="text-muted-foreground text-sm leading-relaxed">
             <p className="pb-3">
               {
-                "Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web."
+                "Develop composable, personalized digital experiences powered by Sitecore faster and deploy to Vercel's fully managed infrastructure for the most performant, reliable sites."
               }
             </p>
 
-            <p className="px-0 pb-2">
-              The AI Cloud introduces new AI-first tools and primitives, like:
-            </p>
-            <ul className="ml-4 list-disc space-y-1 text-sm">
-              <li>AI SDK and AI Gateway to integrate with any model or tool</li>
-              <li>
-                Fluid compute with Active CPU pricing for high-concurrency,
-                low-latency, cost-efficient AI execution
-              </li>
-              <li>
-                Tool support, MCP servers, and queues, for autonomous actions
-                and background task execution
-              </li>
-              <li>Secure sandboxes to run untrusted agent-generated code</li>
-            </ul>
+            <div className="flex flex-col gap-2 md:flex-row">
+              <Card>
+                <CardHeader>
+                  <CardTitle>2x Faster Page Loads</CardTitle>
+                </CardHeader>
+                <CardContent className="text-foreground/40">
+                  Serve fast, personalized sites from a global Edge Network and
+                  stay fast with Speed Insights and Web Analytics.
+                </CardContent>
+              </Card>
 
+              <Card>
+                <CardHeader>
+                  <CardTitle>7x Faster time to Market</CardTitle>
+                </CardHeader>
+                <CardContent className="text-foreground/40">
+                  Serve fast, personalized sites from a global Edge Network and
+                  stay fast with Speed Insights and Web Analytics.
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Zero Configuration</CardTitle>
+                </CardHeader>
+                <CardContent className="text-foreground/40">
+                  Serve fast, personalized sites from a global Edge Network and
+                  stay fast with Speed Insights and Web Analytics.
+                </CardContent>
+              </Card>
+            </div>
+
+            <h3 className="pt-4 font-bold text-lg text-white">
+              Superior performance
+            </h3>
             <p className="pt-3">
-              These solutions all work together so teams can build and iterate
-              on anything from conversational AI frontends to an army of
-              end-to-end autonomous agents, without infrastructure or additional
-              resource overhead.
+              Build and deploy high-performance web apps with Sitecore and
+              Vercel. Integrate Sitecore's comprehensive solutions (XM Cloud,
+              XM, XP, OrderCloud, Personalize, Content Hub, Content Hub ONE)
+              with Vercel's Frontend Cloud. Eliminate infrastructure
+              complexities and leverage Vercel's scalable infrastructure for
+              unparalleled performance.
+            </p>
+
+            <h3 className="pt-4 font-bold text-lg text-white">
+              The composable Sitecore solution
+            </h3>
+            <p className="pt-3">
+              From selecting tools to building infrastructure, migrating to a
+              composable enterprise solution is daunting. Vercel's Frontend
+              Cloud, combined with Sitecore, simplifies and accelerates your
+              path to composable with Firewall, Secure Compute, Preview
+              Comments, Preview Comments, and Serverless function failover.
+            </p>
+
+            <h3 className="pt-4 font-bold text-lg text-white">
+              Build the experience customers want
+            </h3>
+            <p className="pt-3">
+              Increased flexibility in frontend development and a fully
+              composable architecture lets you build Sitecore sites how you want
+              with best-of-breed tools and deliver the interactive, personalized
+              experience that users expect.
             </p>
           </div>
 

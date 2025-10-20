@@ -7,8 +7,9 @@ import { Suspense } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Cloud Jeopardy",
-  description: "Learn more about Vercel's AI Cloud",
+  title: "Sitecore Jeopardy",
+  description:
+    "Learn more about Vercel, Next.js, and Sitecore during Sitecore Symposium",
   icons: {
     icon: `/favicon.ico`,
     shortcut: `/favicon.ico`,
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     ],
     other: [{ rel: "mask-icon", url: `/safari-pinned-tab.svg` }],
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 };
 
 export default function RootLayout({
