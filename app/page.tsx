@@ -120,15 +120,15 @@ export default function Home() {
               </p>
             </CardHeader>
 
-            <CardContent className="p-6">
-              <div className="grid grid-cols-3 gap-4">
+            <CardContent className="p-2 md:p-6">
+              <div className="grid grid-cols-3 gap-2 md:gap-4">
                 {/* Category Headers */}
                 {gameData.categories.map((category) => (
                   <div
                     key={category.name}
                     className="flex items-center justify-center rounded-lg bg-primary p-4 text-primary-foreground"
                   >
-                    <h2 className="text-center font-bold text-sm uppercase leading-tight tracking-wide sm:text-lg md:text-xl">
+                    <h2 className="text-center font-medium text-xs uppercase leading-tight md:text-xl">
                       {category.name}
                     </h2>
                   </div>
